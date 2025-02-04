@@ -118,30 +118,35 @@ Access the application at `http://localhost:3000`
 GET /api/category/
 ```
 
+![get_categories](https://github.com/user-attachments/assets/419dad41-5151-4e18-be7b-98e1820a5613)
 
 ```bash
 # Get Category by id
 GET /api/category/:id
 ```
 
+![get_one_cat](https://github.com/user-attachments/assets/1d6b9ebc-ed9b-4753-a39a-86052ecbbd74)
 
 ```bash
 # Create Category 
 POST /api/category/
 ```
 
-
+![post_one_cat](https://github.com/user-attachments/assets/191bdff3-add7-48ae-aedb-9e399f596510)
 
 ```bash
 # Delete Category
 DELETE /api/category/:id
 ```
 
+![del_cat](https://github.com/user-attachments/assets/0be43ba4-e3e6-4fa6-9016-6a46ef8680f7)
+
 ```bash
 # Edit Category 
 PATCH /api/category/:id
 ```
 
+![update_cat](https://github.com/user-attachments/assets/3e10a44d-422a-4624-81c7-fe47b8caa9ca)
 
 ### **Subategories**
 
@@ -150,25 +155,35 @@ PATCH /api/category/:id
 GET /api/subcategory/
 ```
 
+![get_subcats](https://github.com/user-attachments/assets/69b6ec69-08b2-4792-921f-54b5db2bb630)
+
 ```bash
 # Get Subcatgory by id
 GET /api/subcategory/:id
 ```
+
+![get_one_subcat](https://github.com/user-attachments/assets/a11eb761-a8e1-481c-856d-2eae5328da61)
 
 ```bash
 # Create Subcategory 
 POST /api/subcategory/
 ```
 
+![create_subcat](https://github.com/user-attachments/assets/cc228ac8-5316-4b87-8450-cfbb3ffd2ea5)
+
 ```bash
 # Delete subcategory
 DELETE /api/subcategory/:id
 ```
 
+![delete_subcat](https://github.com/user-attachments/assets/3efc227e-39b4-4488-8b27-11de7d55a863)
+
 ```bash
 # Edit category 
 PATCH /api/subcategory/:id
 ```
+
+![update_sub](https://github.com/user-attachments/assets/dfbf1c3c-cf73-4c2a-afb7-4f9eb9bc3570)
 
 
 ### **Items**
@@ -177,24 +192,39 @@ PATCH /api/subcategory/:id
 # Get all Items
 GET /api/item/
 ```
+![get_items](https://github.com/user-attachments/assets/a28e646f-57c0-44e1-b6f0-6c6d5feda058)
 
 ```bash
 # Get Item by id
 GET /api/item/:id
 ```
 
+![get_one_item](https://github.com/user-attachments/assets/7a30c61c-7568-4a07-bfb0-dfedb1ca8574)
+
 ```bash
 # Create Item
 POST /api/item/
 ```
 
-```bash
-# Delete Item
-DELETE /api/item/:id
-```
+![create_item](https://github.com/user-attachments/assets/2f08ebe2-c7f7-4b18-adad-0b7ed4407418)
 
 ```bash
 # Edit Item 
 PATCH /api/Item/:id
 ```
 
+![update_item](https://github.com/user-attachments/assets/4f302c39-ae10-45cb-aefb-5d76375e7fb4)
+
+```bash
+# Delete Item
+DELETE /api/item/:id
+```
+
+![delete_item](https://github.com/user-attachments/assets/75a992c8-2812-4695-a5c7-7e3fda1ad829)
+
+```bash
+# Search Item by name
+DELETE /api/item/search/:name
+```
+
+![search_item](https://github.com/user-attachments/assets/e0c7b011-dd98-428c-ae14-5fa978498b28)
