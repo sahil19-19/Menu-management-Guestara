@@ -89,7 +89,7 @@ npm install
 ### **3️⃣ Create .env file:**
 
 ```env
-MONGO_URI="mongodb://localhost/faqdb"
+MONGO_URI="mongodb://localhost/menudb"
 PORT=3000
 ```
 
@@ -109,7 +109,7 @@ node app.js  # To run simply
 
 ## 📌 **API Usage Examples**
 
-Access the application at `http://localhost:3000`.
+Access the application at `http://localhost:3000`
 
 ### **Categories**
 
@@ -118,15 +118,19 @@ Access the application at `http://localhost:3000`.
 GET /api/category/
 ```
 
+
 ```bash
 # Get Category by id
 GET /api/category/:id
 ```
 
+
 ```bash
 # Create Category 
 POST /api/category/
 ```
+
+
 
 ```bash
 # Delete Category
