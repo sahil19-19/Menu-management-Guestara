@@ -1,7 +1,13 @@
 # Menu-Manager: MongoDB, ExpressJS, NodeJS based Menu Manager
 
 ## 🚀 Overview
-This is a MongoDB, NodeJS, Express based menu management system for Guestara
+This is a MongoDB, NodeJS, Express based menu management system for Guestara assessment
+
+### **Video explanation**
+
+```
+https://www.loom.com/share/41cf6a2e89984526ada5840642558f2b?sid=4be1e7d0-68f4-47c7-afb9-f3276759b4e9
+```
 
 ### **Key Features**
 ✅ Category Management: Create, retrieve, update, and delete categories with attributes such as name, image URL, description, tax applicability, tax amount, and tax type.     
