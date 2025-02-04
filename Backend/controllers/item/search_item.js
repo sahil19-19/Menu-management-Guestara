@@ -1,4 +1,3 @@
-//
 const Item = require('../../models/item')
 
 const search_item = async (req, res) => {
