@@ -1,7 +1,7 @@
 # Menu-Manager: MongoDB, ExpressJS, NodeJS based Menu Manager
 
 ## 🚀 Overview
-This is a MongoDB, NodeJS, Express based menu management system for Guestara assessment
+This is a MongoDB, NodeJS, Express based menu management system
 
 ### **Video explanation**
 
